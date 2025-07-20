@@ -1,0 +1,54 @@
+Types of Cloud Business / Service Models
+=========================================
+We have three types of cloud business models.
+
+1) IaaS (Infrastructure As a Service)
+
+2) PaaS (Platform As a Service)
+
+3) SaaS (Software As a Service) 
+
+Every cloud provider supports above three business models.
+
+They comes with and ends with shared responsibility model.
+
+Group of expertise engineer's will decide which business model is best for their organization.
+
+Diagram: aws2.1
+
+
+How to create AWS Account 
+=========================
+To create AWS account we required following things.
+
+1) Gmail Id 
+
+2) Debit/Credit Card 
+
+3) Minimum 2 rupees in account
+
+Note:
+----
+If we use debit card to create account then it takes less then 24 hours to activate account.
+If we use credit card to create account then it takes less then 3 hours to activate account.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

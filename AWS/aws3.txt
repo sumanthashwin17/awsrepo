@@ -1,0 +1,117 @@
+Operating System
+=================
+Operating system is a interface between user and hard components.
+
+We have two types of operating systems.
+
+1) GUI (Graphical User Interface)
+--------------------------
+	ex:
+		windows
+
+2) CLI (Command Line Interface)
+	ex:
+		Linux 
+
+Note:
+-----
+	In space of operating system CLI is widely used.
+	90% of enterprise environment is CLI and that too linux.
+
+
+
+Q) Who is the richest person in the world today?
+
+	Elon Musk 
+
+
+Q) Who was the richest person for a long period of time?
+
+	Bill Gates 
+
+
+
+About Linux 
+============
+Linux create by Linus Torvalds.
+
+Idea behind linux is, why to go for licence to use any operating system. 
+
+Linus Torvalds wants to develop a free open source operating system so then he has started an open source project called linux.
+
+He has created linux kernel.
+
+Kernel is a first layer of an operating system.
+
+Linux kernel is a piece of software which interacts with hardware.
+
+The main aspect of linux kernel are
+
+> To build free CLI OS
+> It should work on any hardware.
+> It must be an open source. 
+> GNUX (Generally Not a Unix)
+
+
+EC2
+====
+EC2 stands for Elastic Cloud Compute.
+
+It is a webservice offered by AWS to create virtual servers which are known as instances in cloud.
+
+EC2 comes under IaaS (Infrastructure As a Service).
+
+Linux server provides two ways authentication.
+
+1) username and password (Recommanded)
+
+2) username with key (Not Recommanded)
+
+
+How to create a linux server in AWS using username and password
+============================================================
+step1:
+-------
+	Download and Install Putty software for windows OS.
+	ex:
+		https://www.putty.org/
+
+
+step2:
+------
+	Login in AWS account to create a linux server.
+
+step3:
+-----
+	Select "US EAST (North Virginia)" as a region.
+
+step4:
+-----
+	Now Launch EC2 Instance "My-Linux-Server" using CentOS 7 .
+	ex:
+		AMI : DevOps-LabImage-Centos-8
+		username : centos
+		password : DevOps321
+
+step5:
+------
+	Copy the Public IPv4 address from EC2 Instance.
+
+step6:
+------
+	Paste the IP address in Putty.
+
+step7:
+-------
+	login as : centos 
+
+	Enter the password : DevOps321
+step8:
+------
+	Once the practice is completed terminate the server.
+
+Note:
+-----
+	If we want to connect with putty we can do it.
+	Open the putty and type the IPv4 address.
+

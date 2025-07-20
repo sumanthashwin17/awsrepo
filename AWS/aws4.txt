@@ -1,0 +1,141 @@
+Types of Instances
+==================
+We have three types of instances in AWS.
+
+1) Reserved Instances 
+
+2) On-Demand Instances
+
+3) Spot Instances
+
+
+1) On-demand Instances:
+----------------------
+In this case  we are not ensure when we are going create server and terminate server.
+On adopt basis , we are creating servers and terminating servers. 
+Here billing is very high (> high) 
+
+
+2) Reserved Instances : 
+-----------------------
+Whenever we have a vision to stay for a long term then we need to use reserved instance.
+
+Typically when we joined a company, our company product manager or company representative talk to AWS TAM (Techical Account Manager).
+
+ex:
+	we will use 1000 cpu and 2TB memory for 3 years
+	
+	
+3) Spot Instances  : 
+-------------
+	Here we will get 95% to 98% discount. 
+	spot instance is gold in company.
+
+
+
+
+AWS Tenancy 
+===========
+We have three types of AWS Tenancy.
+
+1) Dedicated Host 
+
+2) Dedicate instance 
+
+3) Shared instance 
+
+
+1) Shared instances : 
+---------------------
+Here amazon is not having any visibility on flipkart and vice versa.
+
+	
+> Dedicated instances :
+------------------------
+In dedicated instance , banks and insaurance companies don't want other 
+servers should run in the harware where they are running.
+It is costly to the company.
+
+	
+> Dedicated Hosts : 
+---------------------
+Applications which are developed on-premises need dedicated server like physical server of a data center.
+
+It describes how much cpu and storage required . It specially designed for you.
+
+It is also known as Bare Metal / Physical server.
+
+Diagram: aws4.1
+
+
+Launch Template 
+===============
+Launch template is used to create EC2 instances only by just one click.
+
+Launch template contains configuration information of EC2 instance.
+
+It includes Id of a AMI (Amazon Machine Image), instance type (t2.micro), key pairs, security groups and other parameters required to launch EC2 instance.
+
+ex:
+	AMI 	: DevOps-LabImage-Centos-8
+	Region 	: N Virginia 
+	username: centos 
+	password: DevOps321
+
+step1:
+------
+	Login to AWS account.
+
+step2:
+------
+	Create a lauch template.
+
+step3:
+-----
+	Now launch EC2 instance from launch template.
+
+step4:
+-----
+	Copy the public IP Address and connect to putty.
+
+step6:
+------
+	To terminate the server we need to cancel the request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
